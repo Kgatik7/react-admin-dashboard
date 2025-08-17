@@ -11,7 +11,7 @@ export default function Buildings() {
   return (
     <section className="space-y-6">
       <header>
-        <h2 className="text-2xl font-bold">Buildings</h2>
+        <div className="header-pill text-center">Buildings</div>
         <p className="text-sm text-gray-500">Manage campus buildings.</p>
       </header>
 

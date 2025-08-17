@@ -21,7 +21,7 @@
     font-weight: 700;
     font-size: 1.875rem;
     line-height: 2.25rem;
-    
+    align-items: center;
   }
   .sidebar { background: var(--sidebar-bg); }
   .nav-item { @apply text-gray-200; }

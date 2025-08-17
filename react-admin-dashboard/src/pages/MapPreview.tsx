@@ -2,7 +2,7 @@ export default function MapPreview() {
   return (
     <section className="space-y-6">
       <header>
-        <h2 className="text-2xl font-bold">Map Preview</h2>
+        <div className="header-pill text-center">Map Preview</div>
         <p className="text-sm text-gray-500">Showcase a campus map or building layout here.</p>
       </header>
 

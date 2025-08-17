@@ -10,7 +10,7 @@ export default function Paths() {
   return (
     <section className="space-y-6">
       <header>
-        <h2 className="text-2xl font-bold">Paths</h2>
+        <div className="header-pill text-center">Paths</div>
         <p className="text-sm text-gray-500">Define connections between buildings.</p>
       </header>
 

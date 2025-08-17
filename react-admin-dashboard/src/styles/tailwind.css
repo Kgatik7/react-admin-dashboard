@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App globals */
+:root {
+  --sidebar-width: 260px;
+  --sidebar-bg: #06476a;
+  --sidebar-text: #608297;
+}
+
+@layer components {
+  .header-pill { 
+    background: linear-gradient(135deg, #0F6370 0%, #0B4D57 100%);
+    color: #fff;
+    border-radius: 9999px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    
+  }
+  .sidebar { background: var(--sidebar-bg); }
+  .nav-item { @apply text-gray-200; }
+}
+
